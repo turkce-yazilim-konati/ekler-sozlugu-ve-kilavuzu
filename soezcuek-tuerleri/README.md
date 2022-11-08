@@ -1,0 +1,2 @@
+# Sözcük Türleri
+
