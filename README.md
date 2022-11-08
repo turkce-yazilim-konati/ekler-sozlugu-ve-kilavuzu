@@ -2,6 +2,8 @@
 description: >-
   Türkçenin ekleri ile ilgili bütün bilgileri tek yerde bulabileceğiniz ekler
   dizmesi.
+cover: .gitbook/assets/sözlük.jpg
+coverY: -232.67326732673266
 ---
 
 # Ekler
