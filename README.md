@@ -1,26 +1,26 @@
 ---
-description: >-
-  Türkçenin ekleri ile ilgili bütün bilgileri tek yerde bulabileceğiniz ekler
-  dizmesi.
+description: Türkçenin ekleri üzerine bütün bilgileri bulabileceğiniz sözlük & kılavuz.
 cover: .gitbook/assets/sözlük.jpg
 coverY: -232.67326732673266
 ---
 
-# Ekler
+# Ekler Bilgisi
+
+Bir dilde bir sözü oluşturan anlamlı küçük söze, sözcük denir. Sözcükler başına ayağına bir takım anlam burucu, katıcı, değiştirici ses öbekleri alırlar. Bu ses öbeklerine dil bilgisi alanında ek denir. Ekler kendi içinde iki ana bölükte derlenir. Yine bu bölükler içinde görevlerine, türlerine göre bölük bölük derlenir.
+
+<img src=".gitbook/assets/file.drawing (2).svg" alt="" class="gitbook-drawing">
 
 {% tabs %}
-{% tab title="Hepsi" %}
-<table><thead><tr><th>Ek</th><th data-type="select">Tür</th><th data-type="select" data-multiple>Alt Tür</th><th data-type="select" data-multiple>Taban</th><th data-hidden>Açıklama</th></tr></thead><tbody><tr><td><a data-mention href="cekim-ekleri/lar-+lar-lar.md">lar-+lar-lar.md</a>(<mark style="color:green;">+lar~</mark>, <mark style="color:green;">+ler~</mark>)</td><td></td><td></td><td></td><td><mark style="color:blue;"></mark></td></tr><tr><td><a data-mention href="broken-reference">Broken link</a>(<mark style="color:green;">+msak+</mark>, <mark style="color:green;">+msek+</mark>, <mark style="color:green;">+ımsak+</mark>, <mark style="color:green;">+imsek+</mark>)</td><td></td><td></td><td></td><td><mark style="color:blue;"></mark></td></tr><tr><td><a data-mention href="broken-reference">Broken link</a>(<mark style="color:green;">+k+</mark>, <mark style="color:green;">+ık+</mark>, <mark style="color:green;">+ik+</mark>, <mark style="color:green;">+uk+</mark>, <mark style="color:green;">+ük+</mark>)</td><td></td><td></td><td></td><td><mark style="color:blue;"></mark></td></tr><tr><td><a data-mention href="broken-reference">Broken link</a>(<mark style="color:green;">-ala-</mark>, <mark style="color:green;">-ele-</mark>)</td><td></td><td></td><td></td><td><mark style="color:blue;"></mark></td></tr><tr><td><a data-mention href="broken-reference">Broken link</a>(<mark style="color:green;">-ı+</mark>, <mark style="color:green;">-i+</mark>, <mark style="color:green;">-u+</mark>, <mark style="color:green;">-ü+</mark>)</td><td></td><td></td><td></td><td><mark style="color:blue;"></mark></td></tr></tbody></table>
-
-&#x20;[lar-+lar-lar.md](cekim-ekleri/lar-+lar-lar.md "mention")(<mark style="color:green;">+lar\~</mark>, <mark style="color:green;">+ler\~</mark>){ <mark style="color:red;background-color:red;">Adlık Çekim Eki</mark> : <mark style="color:purple;background-color:purple;">Çokluk eki</mark> }
+{% tab title="Eklerin Hepsi" %}
+<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th data-type="content-ref">Ek</th><th data-type="select" data-multiple>Bilgiler</th></tr></thead><tbody><tr><td><a href="cekim-ekleri/lar-ler-eki.md">lar-ler-eki.md</a></td><td></td></tr><tr><td><a href="cekim-ekleri/+-y-a.md">+-y-a.md</a></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Çekim Ekleri" %}
-<table><thead><tr><th>Ek</th><th data-type="select" data-multiple>Alt Tür</th><th data-type="select" data-multiple>Taban</th><th data-hidden data-type="select">Tür</th><th data-hidden>Açıklama</th></tr></thead><tbody><tr><td><a data-mention href="cekim-ekleri/lar-+lar-lar.md">lar-+lar-lar.md</a>(<mark style="color:green;">+lar~</mark>, <mark style="color:green;">+ler~</mark>)</td><td></td><td></td><td></td><td><mark style="color:blue;"></mark></td></tr></tbody></table>
+<table><thead><tr><th data-type="content-ref">Ek</th><th data-type="select" data-multiple>Alt Tür</th><th data-type="select" data-multiple>Taban</th><th data-hidden data-type="select">Tür</th><th data-hidden>Açıklama</th></tr></thead><tbody><tr><td><a href="cekim-ekleri/lar-ler-eki.md">lar-ler-eki.md</a></td><td></td><td></td><td></td><td><mark style="color:blue;"></mark></td></tr><tr><td><a href="cekim-ekleri/+-y-a.md">+-y-a.md</a></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 {% endtab %}
 
-{% tab title="Türetme Ekleri" %}
-<table><thead><tr><th>Ek</th><th data-type="select" data-multiple>Alt Tür</th><th data-type="select" data-multiple>Taban</th><th data-hidden data-type="select">Tür</th><th data-hidden>Açıklama</th></tr></thead><tbody><tr><td><a data-mention href="broken-reference">Broken link</a>(<mark style="color:green;">+msak+</mark>, <mark style="color:green;">+msek+</mark>, <mark style="color:green;">+ımsak+</mark>, <mark style="color:green;">+imsek+</mark>)</td><td></td><td></td><td></td><td><mark style="color:blue;"></mark></td></tr><tr><td><a data-mention href="broken-reference">Broken link</a>(<mark style="color:green;">+k+</mark>, <mark style="color:green;">+ık+</mark>, <mark style="color:green;">+ik+</mark>, <mark style="color:green;">+uk+</mark>, <mark style="color:green;">+ük+</mark>)</td><td></td><td></td><td></td><td><mark style="color:blue;"></mark></td></tr><tr><td><a data-mention href="broken-reference">Broken link</a>(<mark style="color:green;">-ala-</mark>, <mark style="color:green;">-ele-</mark>)</td><td></td><td></td><td></td><td><mark style="color:blue;"></mark></td></tr><tr><td><a data-mention href="broken-reference">Broken link</a>(<mark style="color:green;">-ı+</mark>, <mark style="color:green;">-i+</mark>, <mark style="color:green;">-u+</mark>, <mark style="color:green;">-ü+</mark>)</td><td></td><td></td><td></td><td><mark style="color:blue;"></mark></td></tr></tbody></table>
+{% tab title="Yapım Ekleri" %}
+<table><thead><tr><th data-type="content-ref">Ek</th><th data-type="select" data-multiple>Alt Tür</th><th data-type="select" data-multiple>Taban</th><th data-hidden data-type="select">Tür</th><th data-hidden>Açıklama</th></tr></thead><tbody><tr><td><a href="yapim-ekleri/a.md">a.md</a></td><td></td><td></td><td></td><td><mark style="color:blue;"></mark></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Sözcükler" %}

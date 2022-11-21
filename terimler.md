@@ -1,12 +1,10 @@
-# Terimler
+# 📜 Terimler
 
 Ad:
 
 Ad başı:
 
 Ad ayağı:
-
-
 
 Edim:
 
@@ -67,3 +65,7 @@ Gövde:
 Gövde başı:
 
 Gövde ayağı:
+
+
+
+<img src=".gitbook/assets/file.drawing.svg" alt="" class="gitbook-drawing">
