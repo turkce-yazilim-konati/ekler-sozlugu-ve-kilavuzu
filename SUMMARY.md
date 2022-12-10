@@ -13,6 +13,8 @@
   * [Ad Türleri](soezcuek-tuerleri/ad-tuerleri.md)
   * [Eylem Türleri](soezcuek-tuerleri/eylem-tuerleri.md)
 * [📜 Terimler](terimler.md)
+* [lar eki](lar-eki/README.md)
+  * [⨤lAr\~(+lAr\~, \~lAr\~)](lar-eki/lar-ler-eki.md)
 
 ## 🏗 YAPIM EKLERİ
 
@@ -315,7 +317,6 @@
 
 ## 🧲 ÇEKİM EKLERİ
 
-* [⨤lAr\~(+lAr\~, \~lAr\~)](cekim-ekleri/lar-ler-eki.md)
 * [+(y)A\~](cekim-ekleri/+-y-a.md)
 * [+An-](cekim-ekleri/+an.md)
 
