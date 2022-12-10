@@ -42,10 +42,10 @@ description: 'Türkçenin çokluk anlamları katmada görevli eki: ⨤lAr~ eki.'
 
 <mark style="color:red;">Görevi:</mark> sayıca çoğaltma yanında âile çevresi anlamı verme
 
-| Ahmet'ler           | Ahmet'[+lAr\~](lar-ler-eki.md)             | Ahmet'[-ler](lar-ler-eki.md)            |
-| ------------------- | ------------------------------------------ | --------------------------------------- |
-| Ayça Hanım'lar      | Ayça Hanım'[+lAr\~](lar-ler-eki.md)        | Ayça Hanım'[-lar](lar-ler-eki.md)       |
-| KÖREMEZ'lerin Tolga | KÖREMEZ'[+lAr\~](lar-ler-eki.md)in\~ Tolga | KÖREMEZ'[-ler](lar-ler-eki.md)-in Tolga |
+| Ahmet+ler            | Ahmet[+lAr](lar-ler-eki.md)              | Ahmet+[ler](lar-ler-eki.md)            |
+| -------------------- | ---------------------------------------- | -------------------------------------- |
+| Ayça Hanım+lar       | Ayça Hanım[+lAr](lar-ler-eki.md)         | Ayça Hanım+[lar](lar-ler-eki.md)       |
+| Köremez+ler+in Tolga | Köremez[+lAr](lar-ler-eki.md)-in\~ Tolga | Köremez+[ler](lar-ler-eki.md)+in Tolga |
 
 {% hint style="info" %}
 [+lAr\~](lar-ler-eki.md) ekinin görevi, +gil ekinin görevi ile denktir.
