@@ -88,4 +88,8 @@ Türkmen Türkçesindeki +lAr\~ eki ile Türkiye Türkçesindeki +lAr\~ eki denk
 
 ### Kazak Türkçesinde +lAr\~ Eki
 
-Kazak Türkçesinde çokluk eki, ünlü ile ve “v” ile “y” ünsüzleriyle biten kelimelerden sonra \[-lAr] ve ünsüzlerden sonra tonlu tonsuz uyumuna bağlı olarak \[-DAr]dır: balalar (anneler), şeşeler (anneler), küyevler (damatlar), oylar (düşünceler); adamdar (adamlar), taldar (dallar), tağamdar (yemekler), qızdar (kızlar); jigitler (yiğitler), ayaqtar (ayaklar), bastar (başlar), Qazaqtar (Kazaklar), köylekter (gömlekler) vb.
+Kazak Türkçesinde çokluk eki, ünlü ile ve “v” ile “y” ünsüzleriyle biten kelimelerden sonra \[-lAr] ve ünsüzlerden sonra tonlu tonsuz uyumuna bağlı olarak \[-DAr]dır: balalar (anneler), şeşeler (anneler), küyevler (damatlar), oylar (düşünceler); adamdar (adamlar), taldar (dallar), tağamdar (yemekler), qızdar (kızlar); jigitler (yiğitler), ayaqtar (ayaklar), bastar (başlar), Qazaqtar (Kazaklar), köylekter (gömlekler) vb.&#x20;
+
+### Çağatay Türkçesinde +lAr\~ Eki
+
+Çağatay Türkçesinde +lAr\~ eki çok yaygın bir kullanıma sahip olup canlı, cansız bütün adlara eklenebilmektedir.&#x20;
