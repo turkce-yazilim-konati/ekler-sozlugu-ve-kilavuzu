@@ -4,7 +4,7 @@ description: 'Türkçenin çokluk anlamları katmada görevli eki: ⨤lAr~ eki.'
 
 # ⨤lAr\~(+lAr\~, \~lAr\~)
 
-asldjkasldkasdlaskdals
+
 
 <table data-card-size="large" data-view="cards"><thead><tr><th data-type="rating" data-max="5">İŞLEKLİK</th></tr></thead><tbody><tr><td>5</td></tr></tbody></table>
 
