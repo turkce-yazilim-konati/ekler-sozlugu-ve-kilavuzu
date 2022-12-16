@@ -1,5 +1,5 @@
 ---
-description: 'Türkçenin çokluk anlamları katmada görevli eki: ⨤lAr~ eki.'
+description: 'Çokluk anlamları katmada Türkçenin görevli eki: ⨤lAr~ eki.'
 ---
 
 # ⨤lAr\~(+lAr\~, \~lAr\~)
