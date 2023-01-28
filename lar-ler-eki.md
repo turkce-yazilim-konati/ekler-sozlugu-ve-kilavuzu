@@ -1,16 +1,22 @@
----
-description: 'Türkçenin çokluk anlamları katmada görevli eki: ⨤lAr~ eki.'
----
+# ⨤lAr]\~
 
-# ⨤lAr\~(+lAr\~, \~lAr\~)
-
-
+{% code title="Lar Ekinin Gösterilişi" %}
+```
+⨤lAr]~
+├── +lAr]~
+│   ├── -lar
+│   └── -ler
+└── ~lAr]~
+    ├── -lar
+    └── -ler
+```
+{% endcode %}
 
 <table data-card-size="large" data-view="cards"><thead><tr><th data-type="rating" data-max="5">İŞLEKLİK</th></tr></thead><tbody><tr><td>5</td></tr></tbody></table>
 
 [⨤lAr\~](lar-ler-eki.md)<mark style="color:orange;">("</mark>[+lAr\~](lar-ler-eki.md)<mark style="color:orange;">" : "</mark>[+lar\~](lar-ler-eki.md), [+ler\~](lar-ler-eki.md)<mark style="color:orange;">"; "</mark>[\~lAr\~](lar-ler-eki.md)<mark style="color:orange;">" : "</mark>[\~lar\~](lar-ler-eki.md), [\~ler\~](lar-ler-eki.md)<mark style="color:orange;">")</mark>
 
-[⨤lAr\~](lar-ler-eki.md) eki, bir [çekim eki](../ekler-bilgisi/cekim-ekleri/)dir; adlara eklenir; eklendikten sonra çekim ekleri eklenebilir; ünlü uyumuna göre [lar](lar-ler-eki.md), [ler](lar-ler-eki.md) olur. Adın türüne, adın niteliğine göre [⨤lAr\~](lar-ler-eki.md) ekinin görevinde değişiklik görülür.
+[⨤lAr\~](lar-ler-eki.md) eki, bir [çekim eki](ekler-bilgisi/cekim-ekleri/)dir; adlara eklenir; eklendikten sonra çekim ekleri eklenebilir; ünlü uyumuna göre [lar](lar-ler-eki.md), [ler](lar-ler-eki.md) olur. Adın türüne, adın niteliğine göre [⨤lAr\~](lar-ler-eki.md) ekinin görevinde değişiklik görülür.
 
 * [Sayılabilen adlarda çoğaltma görevi görür.](lar-ler-eki.md#sayilabilen-adlarda-+lar-eki)
 * [Sayılamayan adlarda duygu yoğunluğu arttırma görevi görür.](lar-ler-eki.md#sayilamayan-adlarda-+lar-eki)

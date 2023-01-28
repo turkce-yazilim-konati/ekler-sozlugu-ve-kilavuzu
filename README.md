@@ -12,11 +12,11 @@ Bir dilde bir sözü oluşturan anlamlı küçük söze, sözcük denir. Sözcü
 
 {% tabs %}
 {% tab title="Eklerin Hepsi" %}
-<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th data-type="content-ref">Ek</th><th data-type="select" data-multiple>Bilgiler</th></tr></thead><tbody><tr><td><a href="lar-eki/lar-ler-eki.md">lar-ler-eki.md</a></td><td></td></tr><tr><td><a href="cekim-ekleri/+-y-a.md">+-y-a.md</a></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th data-type="content-ref">Ek</th><th data-type="select" data-multiple>Bilgiler</th></tr></thead><tbody><tr><td><a href="lar-ler-eki.md">lar-ler-eki.md</a></td><td></td></tr><tr><td><a href="cekim-ekleri/+-y-a.md">+-y-a.md</a></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Çekim Ekleri" %}
-<table><thead><tr><th data-type="content-ref">Ek</th><th data-type="select" data-multiple>Alt Tür</th><th data-type="select" data-multiple>Taban</th><th data-hidden data-type="select">Tür</th><th data-hidden>Açıklama</th></tr></thead><tbody><tr><td><a href="lar-eki/lar-ler-eki.md">lar-ler-eki.md</a></td><td></td><td></td><td></td><td><mark style="color:blue;"></mark></td></tr><tr><td><a href="cekim-ekleri/+-y-a.md">+-y-a.md</a></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th data-type="content-ref">Ek</th><th data-type="select" data-multiple>Alt Tür</th><th data-type="select" data-multiple>Taban</th><th data-hidden data-type="select">Tür</th><th data-hidden>Açıklama</th></tr></thead><tbody><tr><td><a href="lar-ler-eki.md">lar-ler-eki.md</a></td><td></td><td></td><td></td><td><mark style="color:blue;"></mark></td></tr><tr><td><a href="cekim-ekleri/+-y-a.md">+-y-a.md</a></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Yapım Ekleri" %}
