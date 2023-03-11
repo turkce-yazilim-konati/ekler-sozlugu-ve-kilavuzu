@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ek yığma dizmesi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 20px;
+        }
+
+        .dizme {
+            display: grid;
+            grid-auto-rows: auto;
+            grid-template-columns: repeat(5, auto) repeat(1, 1fr);
+            width: 100%;
+            grid-gap: 0px;
+            padding: 0px;
+            border-top: 1px solid gray;
+            border-left: 1px solid gray;
+        }
+
+        .dizme>div {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-right: 1px solid gray;
+            border-bottom: 1px solid gray;
+        }
+
+        .dizme>[başlık] {
+            background-color: turquoise;
+            border: 1px solid black;
+            border-right: 0px solid black;
+            margin-left: -1px;
+            margin-top: -1px;
+        }
+
+        .dizme>[başlık]:nth-child(n-1) {
+            border-right: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Ek Yığma Dizmesi</h1>
+        <div class="dizme">
+
+            <div></div>
+            <div>
+                <div>
+                    Ek:
+                    <br>
+                    <input type="text">
+                </div>
+            </div>
+            <div>
+                <div>
+                    Notunuz: <textarea name="" id="" cols="auto" rows="1"></textarea>
+                    <br><br>
+                    Kaynak: <input type="text" style="width:inherit;">
+                </div>
+            </div>
+            <div></div>
+            <div id="güngen">2023.03.11 Cumartesi, 00:06:59</div>
+            <div>
+                <button>AYRIL</button>
+                <button>KAT</button>
+            </div>
+
+            <div başlık>ID</div>
+            <div başlık>Ek</div>
+            <div başlık>Not ve Kaynak</div>
+            <div başlık>Ekleyen</div>
+            <div başlık>Güngen</div>
+            <div başlık>İşlem</div>
+
+            <div>1</div>
+            <div>lar</div>
+            <div>Çoğul ekinin bir değişkesi olduğunu bildiğim için ekledim.</div>
+            <div>Bilge KAĞAN</div>
+            <div>2023.03.10 Cuma, 14:06:59</div>
+            <div>
+                <button>DÜZELT</button>
+                <button>DONDUR</button>
+                <button>SİL</button>
+            </div>
+
+            <div>2</div>
+            <div>ler</div>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem sequi possimus similique nobis
+                magnam veniam excepturi reiciendis! Iusto quibusdam dignissimos, veritatis quis, placeat repellat error
+                itaque expedita animi, dolores quae.</div>
+            <div>Bilge KAĞAN</div>
+            <div>2023.03.10 Cuma, 14:06:17</div>
+            <div>
+                <button>DÜZELT</button>
+                <button>DONDUR</button>
+                <button>SİL</button>
+            </div>
+
+
+
+            <div>3</div>
+            <div>k</div>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem sequi possimus similique nobis
+                magnam veniam excepturi reiciendis! Iusto quibusdam dignissimos, veritatis quis, placeat repellat error
+                itaque expedita animi, dolores quae.</div>
+            <div>Bilge KAĞAN</div>
+            <div>2023.03.10 Cuma, 14:18:06</div>
+            <div>
+                <button>DÜZELT</button>
+                <button>DONDUR</button>
+                <button>SİL</button>
+            </div>
+
+            <div>2</div>
+            <div>dar</div>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem sequi possimus similique nobis
+                magnam veniam excepturi reiciendis! Iusto quibusdam dignissimos, veritatis quis, placeat repellat error
+                itaque expedita animi, dolores quae.</div>
+            <div>Bilge KAĞAN</div>
+            <div>2023.03.10 Cuma, 04:26:32</div>
+            <div>
+                <button>DÜZELT</button>
+                <button>DONDUR</button>
+                <button>SİL</button>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        function showDateTime() {
+            var güngenim = document.getElementById("güngen");
+
+            var güngen = new Date();
+            var günAdları = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"];
+            var ayAdları = [
+                "Ocak",
+                "Şubat",
+                "Mart",
+                "Nisan",
+                "Mayıs",
+                "Haziran",
+                "Temmuz",
+                "Ağustos",
+                "Eylül",
+                "Ekim",
+                "Kasım",
+                "Aralık"
+            ];
+            var günAdı = günAdları[güngen.getDay()];
+            var ayAdı = ayAdları[güngen.getMonth()];
+            var şimdi = `${güngen.getDate()} ${ayAdı} ${güngen.getFullYear()} ${günAdı},`;
+
+            var saat = güngen.getHours();
+            var dakika = güngen.getMinutes();
+            var saniye = güngen.getSeconds();
+
+            var zaman = saat + ":" + dakika + ":" + saniye;
+            güngenim.innerText = `${şimdi} ${zaman}`;
+        }
+        setInterval(showDateTime, 1000);
+    </script>
+</body>
+
+</html>
