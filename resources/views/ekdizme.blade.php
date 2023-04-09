@@ -5,7 +5,7 @@
 <div class="container">
     <div class="card">
         <div class="card-body">
-            <h3 class="card-title"> Ek Yığma Dizesi</h2>
+            <h3 class="card-title"> Ek Yığma Dizmesi</h2>
         </div>
         <div class="card-body">
 
