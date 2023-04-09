@@ -32,12 +32,11 @@
                             @if ($ek->aktif == 0)
                                 <tr class="table-light" >
                                     <td scope="row">{{$ek->id}}</td>
+
                                     <td> {{ strtolower($ek->ek) }}</td>
     
                                     <td>{{$ek->not}} <br> 
-                                        @if ($ek->kaynak != null)
-                                            Kaynak : {{$ek->kaynak}} 
-                                        @endif
+                                        Kaynak : {{$ek->kaynak}} 
                                     </td>
     
                                     <td> {{$users->find($ek->ekleyen)->name}} </td>

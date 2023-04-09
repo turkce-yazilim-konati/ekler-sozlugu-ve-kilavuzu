@@ -17,8 +17,8 @@ return new class extends Migration
             $table->text('not')->nullable();
             $table->text('kaynak')->nullable();
             $table->unsignedBigInteger('ekleyen');
-            $table->text('aktif')->default(0);
-            $table->int('onaylayan')->nullable();
+            $table->text('aktif')->nullable();
+            $table->integer('onaylayan')->nullable();
             $table->timestamps();
             $table->foreign('ekleyen')->references('id')->on('users');
 
