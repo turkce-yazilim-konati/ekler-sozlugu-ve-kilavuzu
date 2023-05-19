@@ -17,7 +17,7 @@ class EkdizmeController extends Controller
     {
         $ekler = Ekdizme::all();
         $user = User::find(Auth::id());
-        
+
         return view('ekdizme', compact('ekler','user'));
     }
 
@@ -71,10 +71,10 @@ class EkdizmeController extends Controller
      */
     public function edit(int $id)
     {
-        $user = User::find(Auth::id());
         $ek = Ekdizme::find($id);
+        $user = User::find($ek->ekleyen);
 
-        return view('edit_page.EkdizmeEdit', compact('user','ek'));
+        return view('pages.Ekler.ekDizmeEdit', compact('ek', 'user'));
     }
 
     /**
