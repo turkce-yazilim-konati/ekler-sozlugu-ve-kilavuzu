@@ -3,172 +3,54 @@ layout: default
 title: Ek Yığma Dizmesi - Ekler Sözlüğü ve Kılavuzu
 ---
 <div>
-    <h1>Ek Yığma Dizmesi</h1>
+    <h1 style="margin: 0 0 20px 0;">Ek Yığma Dizmesi</h1>
 
-    <div>
-        <div>lar</div>
-        <div>#1</div>
-        <div>
-            <div>Lorem ipsum dolor sit amet.</div>
-            <div>
-                <img src="./assets/image/ak giysili gözlüklü müslüman kadın.png" alt="">
-                <span>Bilge Hatun</span>
+    {% for i in (1..5) %}
+    <div class="bilgi-1 esnek">
+                <div class="ek (1/1)">
+            <div class="içerik">lar</div>
+            <div class="id">
+                #{{i}}
+                <span class="onaylı">
+                    ✔
+                </span>
             </div>
-            <div>
-                <yıl>2023</yıl>.<ay>03</ay>.<gün>10</gün> <günadı>Cuma</günadı>, <saat>14</saat>:<dakika>06</dakika>:<saniye>59</saniye>
+            <div class="(0)" style="margin-left: auto;">
+                <input id="{{i}}-basmacayı-aç" type="radio" name="{{i}}-tr">
+                <label for="{{i}}-basmacayı-aç"><button type="button">AÇ</button></label>
+                <label for="{{i}}-basmacayı-kapa"><button type="button">YUM</button></label>
             </div>
-            <div>
-                onaylı
+            
+        </div>
+
+
+        <input id="{{i}}-basmacayı-kapa" type="radio" name="{{i}}-tr" checked="">
+        <div class="(1/1)">
+            <div class="icerik esnek (1/1)">
+                <div class="(0)">Lorem ipsum dolor sit amet.</div>
             </div>
-            <div>
-                <button>değiştir</button>
-                <button>sil</button>
-                <button>onaysıra</button>
-                <button>onayla</button>
+            <div class="ekleme-bilgileri esnek (1/1)">
+                <div class="ekleyen (0)">
+                    <img src="./assets/image/ak giysili gözlüklü müslüman kadın.png" alt="">
+                    <span>Bilge Hatun</span>
+                </div>
+                <div class="(0)">
+                    <yıl>2023</yıl>.<ay>03</ay>.<gün>10</gün>
+                    <günadı>Cuma</günadı>, <saat>14</saat>:<dakika>06</dakika>:<saniye>59</saniye>
+                </div>
+                <div class="düğmeler esnek (0)">
+
+
+                    <button>ONAYSIRA</button> <!-- Onaylı ise bu düğme görünüp işleyecek. -->
+                    <!-- <button>ONAYLA</button> Onaysız ise bu düğme görünüp işleyecek. -->
+                    <button>DEĞİŞTİR</button>
+                    <button>SİL</button>
+
+                </div>
             </div>
         </div>
     </div>
+    {% endfor %}
 
-
-    <hr>
-    <h1>Ek Yığma Dizmesi</h1>
-    <div class="dizme">
-
-        <div></div>
-        <div>
-            <div>
-                Ek:
-                <br>
-                <input type="text">
-            </div>
-        </div>
-        <div>
-            <div>
-                Notunuz: <textarea name="" id="" cols="auto" rows="1"></textarea>
-                <br><br>
-                Kaynak: <input type="text" style="width:inherit;">
-            </div>
-        </div>
-        <div></div>
-        <div id="güngen">2023.03.11 Cumartesi, 00:06:59</div>
-        <div>
-            <button>AYRIL</button>
-            <button>KAT</button>
-        </div>
-
-        <div başlık>ID</div>
-        <div başlık>Ek</div>
-        <div başlık>Not ve Kaynak</div>
-        <div başlık>Ekleyen</div>
-        <div başlık>Güngen</div>
-        <div başlık>İşlem</div>
-
-        <div>1</div>
-        <div>lar</div>
-        <div>Çoğul ekinin bir değişkesi olduğunu bildiğim için ekledim.</div>
-        <div>Bilge KAĞAN</div>
-        <div>2023.03.10 Cuma, 14:06:59</div>
-        <div>
-            <button>DÜZELT</button>
-            <button>DONDUR</button>
-            <button>SİL</button>
-        </div>
-
-        <div>2</div>
-        <div>ler</div>
-        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem sequi possimus similique nobis
-            magnam veniam excepturi reiciendis! Iusto quibusdam dignissimos, veritatis quis, placeat repellat error
-            itaque expedita animi, dolores quae.</div>
-        <div>Bilge KAĞAN</div>
-        <div>2023.03.10 Cuma, 14:06:17</div>
-        <div>
-            <button>DÜZELT</button>
-            <button>DONDUR</button>
-            <button>SİL</button>
-        </div>
-
-
-
-        <div>3</div>
-        <div>k</div>
-        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem sequi possimus similique nobis
-            magnam veniam excepturi reiciendis! Iusto quibusdam dignissimos, veritatis quis, placeat repellat error
-            itaque expedita animi, dolores quae.</div>
-        <div>Bilge KAĞAN</div>
-        <div>2023.03.10 Cuma, 14:18:06</div>
-        <div>
-            <button>DÜZELT</button>
-            <button>DONDUR</button>
-            <button>SİL</button>
-        </div>
-
-        <div>4</div>
-        <div>dar</div>
-        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem sequi possimus similique nobis
-            magnam veniam excepturi reiciendis! Iusto quibusdam dignissimos, veritatis quis, placeat repellat error
-            itaque expedita animi, dolores quae.</div>
-        <div>Bilge KAĞAN</div>
-        <div>2023.03.10 Cuma, 04:26:32</div>
-        <div>
-            <button>DÜZELT</button>
-            <button>DONDUR</button>
-            <button>SİL</button>
-        </div>
-
-        <div>5</div>
-        <div>tar</div>
-        <div></div>
-        <div>Bilge KAĞAN</div>
-        <div>2023.03.11 Cumartesi, 04:26:32</div>
-        <div>
-            <button>DÜZELT</button>
-            <button>DONDUR</button>
-            <button>SİL</button>
-        </div>
-
-        <div>6</div>
-        <div>cağız</div>
-        <div>Bugün Twitter'da gördüm ve ekledim.</div>
-        <div>Bilge KAĞAN</div>
-        <div>2023.03.11 Cumartesi, 04:26:32</div>
-        <div>
-            <button>DÜZELT</button>
-            <button>DONDUR</button>
-            <button>SİL</button>
-        </div>
-
-    </div>
+    
 </div>
-<script>
-    function showDateTime() {
-        var güngenim = document.getElementById("güngen");
-
-        var güngen = new Date();
-        var günAdları = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"];
-        var ayAdları = [
-            "Ocak",
-            "Şubat",
-            "Mart",
-            "Nisan",
-            "Mayıs",
-            "Haziran",
-            "Temmuz",
-            "Ağustos",
-            "Eylül",
-            "Ekim",
-            "Kasım",
-            "Aralık"
-        ];
-        var günAdı = günAdları[güngen.getDay()];
-        var ayAdı = ayAdları[güngen.getMonth()];
-        var şimdi = `${güngen.getDate()} ${ayAdı} ${güngen.getFullYear()} ${günAdı},`;
-
-        var saat = güngen.getHours();
-        var dakika = güngen.getMinutes();
-        var saniye = güngen.getSeconds();
-
-        var zaman = saat + ":" + dakika + ":" + saniye;
-        güngenim.innerText = `${şimdi} ${zaman}`;
-    }
-    setInterval(showDateTime, 1000);
-</script>

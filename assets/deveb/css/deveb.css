@@ -112,6 +112,130 @@ bölüm#alt {
   border-right: 1px solid black;
 }
 
+.bilgi-1 {
+  margin-bottom: 12px;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: ghostwhite;
+}
+
+.bilgi-1 .düğmeler {
+  margin-left: auto;
+  gap: 12px;
+  align-items: center;
+}
+
+button {
+  outline: none;
+  text-align: center;
+  min-width: 80px;
+  border-radius: 10px;
+  background: #fff;
+  border: 2px solid #1ECD97;
+  color: #1ECD97;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  padding: 5px 10px;
+}
+
+button:hover {
+  color: white;
+  background: #1ECD97;
+}
+
+button:active {
+  letter-spacing: 2px;
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bilgi-1 .onaylı {
+  color: green;
+  font-weight: 700;
+}
+
+.bilgi-1 .icerik {
+  gap: 5px;
+}
+
+.bilgi-1 .ek {
+  display: flex;
+  align-items: end;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.bilgi-1 .ek .içerik {
+  background-color: black;
+  color: white;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.bilgi-1 .ek .id {
+  color: darkgray;
+}
+
+.ekleme-bilgileri {
+  gap: 5px 10px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.ekleme-bilgileri .ekleyen {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ekleme-bilgileri .ekleyen img {
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/************************************************************************
+╔═══════════════════════════════════════════════════════════════════════╗
+║ BASMACA 1.0                                                           ║
+║ https://data-deveb.github.io/basmaca                                  ║
+║ https://github.com/data-deveb/basmaca                                 ║
+╚═══════════════════════════════════════════════════════════════════════╝
+************************************************************************/
+input[id*=-basmacayı-],
+input[id*=-basmacayı-]:checked + *,
+input[id*=-basmacayı-]:not(:checked) + label + label[for$=-basmacayı-kapa] {
+  /* <input> hep görünmez tutulur. */
+  display: none;
+}
+
+input[id$=-basmacayı-aç] + label,
+input[id$=-basmacayı-aç] + * + label {
+  /* Tıklar iken yazılar seçilmemeli */
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+input[id$=-basmacayı-aç] + label > button,
+input[id$=-basmacayı-aç] + * + label > button {
+  /* Kolanlar bir düğme barındırır iken işlemesi için tanımlandı. */
+  pointer-events: none;
+}
+
 @media screen and (min-width: 0) {
   [class*="/"] {
     --b: 0;
