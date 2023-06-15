@@ -7,20 +7,25 @@ title: Ek Yığma Dizmesi - Ekler Sözlüğü ve Kılavuzu
 
     {% for i in (1..5) %}
     <div class="bilgi-1 esnek">
-                <div class="ek (1/1)">
-            <div class="içerik">lar</div>
+        <div class="ek (1/1)">
+            <div class="içerik">
+                lar
+            </div>
             <div class="id">
                 #{{i}}
                 <span class="onaylı">
                     ✔
                 </span>
             </div>
+            <div class="sürüm">
+                Sürümü: <a href="./kayıt-defteri/">0.{{i}}.4{{i}}</a>
+            </div>
             <div class="(0)" style="margin-left: auto;">
                 <input id="{{i}}-basmacayı-aç" type="radio" name="{{i}}-tr">
                 <label for="{{i}}-basmacayı-aç"><button type="button">AÇ</button></label>
                 <label for="{{i}}-basmacayı-kapa"><button type="button">YUM</button></label>
             </div>
-            
+
         </div>
 
 
@@ -52,5 +57,5 @@ title: Ek Yığma Dizmesi - Ekler Sözlüğü ve Kılavuzu
     </div>
     {% endfor %}
 
-    
+
 </div>
