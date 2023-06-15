@@ -129,23 +129,21 @@ bölüm#alt {
 button {
   outline: none;
   text-align: center;
-  min-width: 80px;
-  border-radius: 10px;
+  border-radius: 12px;
   background: #fff;
-  border: 2px solid #1ECD97;
-  color: #1ECD97;
+  border: 1px solid #3e64ff;
+  color: #3e64ff;
   letter-spacing: 1px;
   text-shadow: 0;
   font-size: 12px;
-  font-weight: bold;
   cursor: pointer;
   transition: all 0.25s ease;
-  padding: 5px 10px;
+  padding: 4px 8px;
 }
 
-button:hover {
+label:hover > button, button:hover {
   color: white;
-  background: #1ECD97;
+  background: #3e64ff;
 }
 
 button:active {
@@ -170,9 +168,8 @@ button:active {
 
 .bilgi-1 .ek {
   display: flex;
-  align-items: end;
+  align-items: center;
   gap: 5px;
-  font-size: 24px;
 }
 
 .bilgi-1 .ek .içerik {
@@ -180,10 +177,16 @@ button:active {
   color: white;
   padding: 0 10px;
   border-radius: 5px;
+  font-size: 24px;
 }
 
 .bilgi-1 .ek .id {
   color: darkgray;
+}
+
+.bilgi-1 .ek .sürüm {
+  font-size: 11pt;
+  color: cadetblue;
 }
 
 .ekleme-bilgileri {
