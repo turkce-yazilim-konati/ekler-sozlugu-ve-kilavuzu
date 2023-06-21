@@ -3,19 +3,36 @@
 
 <head>
     @include('layouts.head')
-</head> 
+</head>
 
 <body>
+    <bet>
+        <bölüm id="üst">
+            @include('layouts.header')
+        </bölüm>
 
-    <div id="app">
+        <bölüm id="sol">
+            @include('layouts.sidebar')
+        </bölüm>
 
-        @include('layouts.navbar')
+        <bölüm id="orta" class="alan">
 
-        <main class="py-4">
+            {{-- @include('layouts.navbar') --}}
             @yield('content')
-        </main>
-    </div>
+        </bölüm>
+
+        <bölüm id="sağ">
+            <div class="alan">abece</div>
+            <div class="alan">abece</div>
+        </bölüm>
+        <bölüm id="alt">
+
+        </bölüm>
+    </bet>
+
+
 
     @include('layouts.scripts')
 </body>
+
 </html>

@@ -1,6 +1,6 @@
 <div class="table-responsive">
     <table class="table table-striped
-    table-hover	
+    table-hover
     table-borderless
     table-primary
     align-middle">
@@ -23,15 +23,15 @@
                     <tr class="table-light" >
                         <td scope="row">{{$ek->id}}</td>
                         <td> {{ strtolower($ek->ek) }}</td>
-                        <td>{{$ek->not}} <br> 
+                        <td>{{$ek->not}} <br>
                             @if ($ek->kaynak != null)
-                                Kaynak : {{$ek->kaynak}} 
+                                Kaynak : {{$ek->kaynak}}
                             @endif
                         </td>
                         <td> {{$users->find($ek->ekleyen)->name}} </td>
                         <td> @if ($ek->aktif == 1) Onaylı @else Onaysız @endif </td>
                         <td> {{ date('d-m-Y h:i', strtotime($ek->created_at)) }}  </td>
-                        
+
                         @auth
                             <td>
                             @if($user->isAuthority == 0)
@@ -45,12 +45,12 @@
                             @endif
                         </td>
                         @endauth
-                        
+
                     </tr>
                 @endforeach
             </tbody>
             <tfoot>
-                
+
             </tfoot>
     </table>
    </div>

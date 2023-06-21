@@ -18,7 +18,7 @@ class EkdizmeController extends Controller
         $ekler = Ekdizme::all();
         $user = User::find(Auth::id());
 
-        return view('ekdizme', compact('ekler','user'));
+        return view('ekdizme', compact('ekler', 'user'));
     }
 
     /**
@@ -41,7 +41,7 @@ class EkdizmeController extends Controller
         } catch (\Throwable $th) {
             echo $th->getMessage();
         }
-       
+
     }
 
     /**
@@ -62,7 +62,7 @@ class EkdizmeController extends Controller
         else {$ek->aktif = 1;}
         $ek->onaylayan = Auth::id();
         $ek->save();
-        
+
         return redirect()->back()->with('success', $ek->ek.' Onaylandı');
     }
 
@@ -81,8 +81,8 @@ class EkdizmeController extends Controller
      * Update the specified resource in storage.
      */
     public function update(Request $request)
-    {  
-        
+    {
+
         // $regex_name = "/^[a-z][a-z,' ' ]+$/i";
             $regex_name = "/^[a-z][a-z,' ]+$/i";
         if (!preg_match($regex_name, $request->ek)) {
