@@ -5,9 +5,12 @@ title: Ek Yığma Dizmesi - Ekler Sözlüğü ve Kılavuzu
 <div>
     <h1 style="margin: 0 0 20px 0;">Ek Yığma Dizmesi</h1>
     <div>
-        <label for="">Ek:</label><input type="text">
-        <label for="">Not:</label><input type="text">
-        <button>EKLE</button>
+        <form action="" method="post">
+            <label for="">Ek:</label><input type="text" name="ek">
+            <label for="">Not:</label><input type="text" name="not">
+            <label for="">Kaynak:</label><input type="text" name="kaynak">
+            <button type="submit">EKLE</button>
+        </form>
     </div>
     {% for i in (1..5) %}
     <div class="bilgi-1 esnek">
@@ -48,8 +51,7 @@ title: Ek Yığma Dizmesi - Ekler Sözlüğü ve Kılavuzu
                     <günadı>Cuma</günadı>, <saat>14</saat>:<dakika>06</dakika>:<saniye>59</saniye>
                 </div>
                 <div class="düğmeler esnek (0)">
-
-
+                    
                     <button>ONAYSIRA</button> <!-- Onaylı ise bu düğme görünüp işleyecek. -->
                     <!-- <button>ONAYLA</button> Onaysız ise bu düğme görünüp işleyecek. -->
                     <button>DEĞİŞTİR</button>
