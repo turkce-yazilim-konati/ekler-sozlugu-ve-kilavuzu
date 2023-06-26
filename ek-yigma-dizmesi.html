@@ -2,66 +2,63 @@
 layout: default
 title: Ek Yığma Dizmesi - Ekler Sözlüğü ve Kılavuzu
 ---
+
+<h1 style="margin: 0 0 20px 0;">Ek Yığma Dizmesi</h1>
 <div>
-    <h1 style="margin: 0 0 20px 0;">Ek Yığma Dizmesi</h1>
-    <div>
-        <form action="" method="post">
-            <label for="">Ek:</label><input type="text" name="ek">
-            <label for="">Not:</label><input type="text" name="not">
-            <label for="">Kaynak:</label><input type="text" name="kaynak">
-            <button type="submit">EKLE</button>
-        </form>
-    </div>
-    {% for i in (1..5) %}
-    <div class="bilgi-1 esnek">
-        <div class="ek (1/1)">
-            <div class="içerik">
-                lar
-            </div>
-            <div class="id">
-                #{{i}}
-                <span class="onaylı">
-                    ✔
-                </span>
-            </div>
-            <div class="sürüm">
-                Sürümü: <a href="./kayıt-defteri/">0.{{i}}.4{{i}}</a>
-            </div>
-            <div class="(0)" style="margin-left: auto;">
-                <input id="{{i}}-basmacayı-aç" type="radio" name="{{i}}-tr">
-                <label for="{{i}}-basmacayı-aç"><button type="button">AÇ</button></label>
-                <label for="{{i}}-basmacayı-kapa"><button type="button">YUM</button></label>
-            </div>
-
-        </div>
-
-
-        <input id="{{i}}-basmacayı-kapa" type="radio" name="{{i}}-tr" checked="">
-        <div class="(1/1)">
-            <div class="icerik esnek (1/1)">
-                <div class="(0)">Lorem ipsum dolor sit amet.</div>
-            </div>
-            <div class="ekleme-bilgileri esnek (1/1)">
-                <div class="ekleyen (0)">
-                    <img src="./assets/image/ak giysili gözlüklü müslüman kadın.png" alt="">
-                    <span>Bilge Hatun</span>
-                </div>
-                <div class="(0)">
-                    <yıl>2023</yıl>.<ay>03</ay>.<gün>10</gün>
-                    <günadı>Cuma</günadı>, <saat>14</saat>:<dakika>06</dakika>:<saniye>59</saniye>
-                </div>
-                <div class="düğmeler esnek (0)">
-                    
-                    <button>ONAYSIRA</button> <!-- Onaylı ise bu düğme görünüp işleyecek. -->
-                    <!-- <button>ONAYLA</button> Onaysız ise bu düğme görünüp işleyecek. -->
-                    <button>DEĞİŞTİR</button>
-                    <button>SİL</button>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    {% endfor %}
-
-
+    <form action="" method="post">
+        <label for="">Ek:</label><input type="text" name="ek">
+        <label for="">Not:</label><input type="text" name="not">
+        <label for="">Kaynak:</label><input type="text" name="kaynak">
+        <button type="submit">EKLE</button>
+    </form>
 </div>
+{% for i in (1..5) %}
+<div class="bilgi-1 esnek">
+    <div class="ek (1/1)">
+        <div class="içerik">
+            lar
+        </div>
+        <div class="id">
+            #{{i}}
+            <span class="onaylı">
+                ✔
+            </span>
+        </div>
+        <div class="sürüm">
+            Sürümü: <a href="./kayıt-defteri/">0.{{i}}.4{{i}}</a>
+        </div>
+        <div class="(0)" style="margin-left: auto;">
+            <input id="{{i}}-basmacayı-aç" type="radio" name="{{i}}-tr">
+            <label for="{{i}}-basmacayı-aç"><button type="button">AÇ</button></label>
+            <label for="{{i}}-basmacayı-kapa"><button type="button">YUM</button></label>
+        </div>
+
+    </div>
+
+
+    <input id="{{i}}-basmacayı-kapa" type="radio" name="{{i}}-tr" checked="">
+    <div class="(1/1)">
+        <div class="icerik esnek (1/1)">
+            <div class="(0)">Lorem ipsum dolor sit amet.</div>
+        </div>
+        <div class="ekleme-bilgileri esnek (1/1)">
+            <div class="ekleyen (0)">
+                <img src="./assets/image/ak giysili gözlüklü müslüman kadın.png" alt="">
+                <span>Bilge Hatun</span>
+            </div>
+            <div class="(0)">
+                <yıl>2023</yıl>.<ay>03</ay>.<gün>10</gün>
+                <günadı>Cuma</günadı>, <saat>14</saat>:<dakika>06</dakika>:<saniye>59</saniye>
+            </div>
+            <div class="düğmeler esnek (0)">
+
+                <button>ONAYSIRA</button> <!-- Onaylı ise bu düğme görünüp işleyecek. -->
+                <!-- <button>ONAYLA</button> Onaysız ise bu düğme görünüp işleyecek. -->
+                <button>DEĞİŞTİR</button>
+                <button>SİL</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
