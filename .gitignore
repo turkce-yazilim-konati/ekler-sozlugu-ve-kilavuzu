@@ -8,6 +8,7 @@ public/storage
 public_html/storage
 public_html/hot
 /storage/*.key
+bootstrap/
 
 # Setting
 .env
