@@ -1,0 +1,14 @@
+
+# File
+/vendor/
+node_modules/
+database/
+storage/
+tests/
+public/storage
+public_html/storage
+public_html/hot
+
+
+# Setting
+.env
