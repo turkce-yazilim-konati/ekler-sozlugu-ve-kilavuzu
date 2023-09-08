@@ -14,7 +14,7 @@
   * [Eylem Türleri](soezcuek-tuerleri/eylem-tuerleri.md)
 * [📜 Terimler](terimler.md)
 * [⨤lAr\]\~](lar-ler-eki/README.md)
-  * [🇹🇲 Türkmence -lAr eki](https://app.gitbook.com/s/kDLkkILPHEQQnVxX9yO0/lar-ler-eki#tuerkmen-tuerkcesinde-+lar-eki)
+  * [🇹🇲 Türkmence -lAr eki](http://127.0.0.1:5000/s/kDLkkILPHEQQnVxX9yO0/lar-ler-eki#tuerkmen-tuerkcesinde-+lar-eki)
 
 ## 🏗 YAPIM EKLERİ
 
