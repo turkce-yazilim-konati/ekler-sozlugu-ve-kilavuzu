@@ -21,11 +21,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        // $users = User::all();
-        // view()->share('users', $users);
+        $users = User::all();
+        view()->share('users', $users);
 
-        // $user = User::find(Auth::id());
-        // view()->share('user', $user);
+        $user = User::find(Auth::id());
+        view()->share('user', $user);
 
     }
 }

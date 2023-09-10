@@ -6,4 +6,5 @@
         <img src="../assets/image/ak giysili gözlüklü müslüman kadın.png" alt="">
         <span>{{ $user->name }}</span>
     </div>
+
 </header>
